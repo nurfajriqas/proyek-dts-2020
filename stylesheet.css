@@ -1,0 +1,51 @@
+/* CSS header */
+body {
+  font-family:"Helvetica";
+}
+
+header {
+  background-color: #D0D3D4;
+  height: 85px ;
+  width: 100%;
+
+}
+
+.header-left {
+  float:left;
+}
+
+.logo {
+  width: 83px;
+  color: #fff;
+  padding-left: 20px;
+  padding-top: 3px;
+  position: absolute;
+
+}
+
+.header-list {
+float: right;
+
+}
+
+.header-list li,a {
+  float: left;
+  list-style: none;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 20px;
+  padding-bottom: 13px;
+  font-size: 16px;
+  font-weight: bolder;
+  color: #1565C0;
+  display:inline-block;
+  opacity: 0.7;
+  text-decoration:none;
+}
+
+.header-list li,a:hover {
+  opacity:1;
+  color: #EC407A;
+  transition: all 0.5s;
+
+}
